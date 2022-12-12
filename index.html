@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMI Calculator</title>
+
+    <link rel="stylesheet" href="emi.css" />
+    <script type="text/javascript" src="emi.js"> </script>
+
+  </head>
+
+  <div class="emiCal">
+    <body>
+      <header>
+        <h1 align="center">This is an EMI Calculator</h1>
+      </header>
+
+      <br />
+
+      <form align="center">
+        <label for="loan"> Loan: </label>
+        <input type="number" id="loan" placeholder="in Rupees"/>
+
+        <br /><br />
+
+        <label for="year"> Years: </label>
+        <input type="number" id="year" placeholder="in years" max="50"/>
+
+        <br /><br />
+
+        <!-- Interest Period:
+        <input type="radio" id="month" name="period" value="month">
+        <label for="month" class="interestPeriod"> Monthly </label>
+
+        <input type="radio" id="annual" name="period" value="annual">
+        <label for="annual" class="interestPeriod"> Annually </label>
+
+        <br /><br /> -->
+
+        <label for="interest"> Interest: </label>
+        <input type="number" id="interest" placeholder="in  % (annually)">
+
+        <br /><br /><br />
+
+        <input type="button" id="submit" value="Submit" onclick="calculatedEMI()"/>
+
+        <!-- <input type="button" id="reset" value="Reset"/> -->
+
+        <br /><br /><br />
+
+        <label for="emi"> EMI: </label>
+        <input type="text" id="emi" placeholder="Rupees per month" />
+
+        <br /><br />
+
+        <label for="total"> In Total: </label>
+        <input type="number" id="total" placeholder="Total Rupees" />
+      </form>
+    </body>
+  </div>
+</html>

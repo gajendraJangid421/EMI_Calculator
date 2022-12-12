@@ -1,0 +1,47 @@
+.emiCal{
+    border: 5px solid blue;
+    border-radius: 5px;
+    font-family:verdana;
+    width: 600px;
+    height: 470px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aqua;
+    font-size: 18px;
+}
+
+.interestPeriod{
+    font-size: 15px;
+    display: inline;
+}
+
+body{
+    background-image: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png");
+}
+
+input[type=button]{
+    background-color: greenyellow;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 30px;
+    width: 65px;
+    cursor: pointer;
+}
+
+input[type=button]:active{
+    background-color: rgb(255, 109, 47);
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 80px;
+}
+
+input{
+    font-size: 16px;
+}
+
+input[type=radio]{
+    cursor: pointer;
+}
